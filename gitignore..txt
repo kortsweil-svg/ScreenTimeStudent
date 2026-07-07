@@ -1,0 +1,51 @@
+# ─── קבצים רגישים - לעולם לא להעלות! ──────────────────────────
+# מפתחות חתימה (keystore) - הנכס הקריטי ביותר
+*.keystore
+*.jks
+# סיסמאות ומשתני סביבה
+android/gradle.properties
+android/local.properties
+.env
+.env.local
+google-services.json
+
+# ─── Node ─────────────────────────────────────────────────────
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json.bak
+
+# ─── React Native / Metro ────────────────────────────────────
+.expo/
+dist/
+web-build/
+*.jsbundle
+.metro-health-check*
+
+# ─── Android build ────────────────────────────────────────────
+android/app/build/
+android/build/
+android/.gradle/
+android/app/release/
+android/captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ─── iOS build ────────────────────────────────────────────────
+ios/build/
+ios/Pods/
+*.xcworkspace
+
+# ─── עורכים ומערכת הפעלה ─────────────────────────────────────
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+*.log
+
+# ─── קבצים זמניים ─────────────────────────────────────────────
+*.tmp
+*.temp
